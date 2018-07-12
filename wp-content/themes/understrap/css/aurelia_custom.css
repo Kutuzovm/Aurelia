@@ -1,0 +1,125 @@
+.test{
+    background-color:#B78B5C;
+    border-color:#B78B5C;
+}
+.test:hover{
+    background-color:white;
+    border-color:#B78B5C;
+    color:#B78B5C;
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0 .2rem #B78B5C;
+    background-color:#B78B5C;
+    color:white;
+}
+a{
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: #B78B5C;
+}
+a:hover{
+    color:#B78B5C;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:gray;
+    text-decoration: none;
+}
+.navbar-nav a{
+    color:white;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color:gray;
+    text-decoration: none;
+}
+.entry-title a{
+    text-decoration: none;
+}
+.entry-title a:hover{
+    text-decoration: none;
+    color:gray;
+}
+.btn {
+    text-decoration: none;
+}
+.navbar-brand {
+    text-decoration:none;
+}
+.navbar-brand a:active{
+    text-decoration:none;
+}
+.wpcf7 input[type="submit"]{
+    border-color:#B78B5C;
+    color:black;
+}
+.wpcf7 input[type="submit"]:hover{
+    border-color:#B78B5C;
+    background-color:#B78B5C;
+}
+.navbar-nav{
+    margin:0 auto;
+}
+.bg-dark {
+    background-color: #262626;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+    color:#B78B5C;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #B78B5C;
+    border-color: #e2c09c;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 .2rem #e2c09c;
+}
+.wpcf7 input:focus[type="submit"]{
+    box-shadow: 0 0 0 .2rem #e2c09c;
+}
+.wpcf7 input:not(:disabled):not(.disabled):active[type="submit"] {
+    color: #fff;
+    background-color: #B78B5C;
+    border-color: #e2c09c;
+}
+.wpcf7 input:focus[type="submit"]{
+    border-color: #e2c09c;
+}
+.wpcf7 input:not(:disabled):not(.disabled):active:focus[type="submit"] {
+    -webkit-box-shadow: 0 0 0 .2rem #e2c09c;
+    box-shadow: 0 0 0 .2rem #e2c09c;
+}
+#wrapper-footer-full, #wrapper-static-hero {
+    background-color: #252525;
+}
+h3{
+    color: rgba(255,255,255,0.5);
+}
+.row_margin{
+    margin-bottom: 15px;
+}
+.col_margin{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height:100%;
+}
+.col_margin:first-child{
+    margin-left: 0px;
+    margin-right: -15px;
+}
+.col_margin:last-child{
+    margin-left: -15px;
+    margin-right: 0px;
+}
+.no_grid{
+    border:none;
+}
+.card{
+    border:none;
+}
